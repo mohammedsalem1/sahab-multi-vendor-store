@@ -1,0 +1,71 @@
+body {
+    color: rgb(105, 103, 102) !important;
+    font-family: 'stc';
+}
+/* start nav */
+.line-header {
+    height: 5px;
+    background: linear-gradient(to right, rgba(255,208,7) 0%, rgba(255,208,7) 12.5%,rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%);
+}
+.d-flex .btn  , .d-flex .btn:hover {
+    background-color: rgb(73, 185, 117);
+    color: white;
+    right: -130px;
+ }
+ .badge {
+    right: 3px;
+    color: white !important;
+    background-color: #7600d9 !important;
+ }
+ .badge.heart {
+   right: -7px;
+ }
+ .nav-link {
+    font-size: 12px;
+    font-weight: bold;
+ }
+ .dropdown-menu {
+    width: 800px;
+ }
+ /* END Nav */
+.hr-header {
+    /* margin-top: 4px; */
+    border-top: 1px solid rgb(0, 0, 0 , 0.1);
+}
+.carousel-item img {
+    height: 450px;
+}
+.modal-footer button{
+    cursor: pointer;
+    color: #fff;
+    background-color: #7600d9;
+    border-color: #7600d9;
+}
+.main-table {
+    box-shadow: rgb(255, 208, 7) 0px -4px;
+}
+.description {
+    box-shadow: rgb(216 176 142) 0px -4px; 
+}
+.additional-description {
+    box-shadow:rgb(192 156 221) 0px -4px;
+}
+.card-title {
+    background-color: #ddd;
+}
+.text-center span , 
+.text-center del {
+    color: black;
+    font-weight: bold;
+}
+.line-footer {
+    background: linear-gradient(to right, rgba(255,208,7) 0%, rgba(255,208,7) 12.5%,rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%);
+    height: 10px;
+ }
+ .footer li a{
+    color: rgb(105, 103, 102) !important;
+ }
+ .contact button {
+    background-color: #7e57c6 ;
+    color: white;
+ }
